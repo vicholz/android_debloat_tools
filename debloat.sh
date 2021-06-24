@@ -1,130 +1,56 @@
 #!/bin/bash
-adb shell pm disable-user --user 0 amazon.alexa.tablet
-adb shell pm disable-user --user 0 amazon.jackson19
-adb shell pm disable-user --user 0 amazon.speech.audiostreamproviderservice
-adb shell pm disable-user --user 0 amazon.speech.davs.davcservice
-adb shell pm disable-user --user 0 amazon.speech.sim
-adb shell pm disable-user --user 0 amazon.speech.wakewordservice
-adb shell pm disable-user --user 0 com.amazon.aca
-adb shell pm disable-user --user 0 com.amazon.accessorynotifier
-adb shell pm disable-user --user 0 com.amazon.advertisingidsettings
-adb shell pm disable-user --user 0 com.amazon.ags.app
-adb shell pm disable-user --user 0 com.amazon.alexa.externalmediaplayer.fireos
-adb shell pm disable-user --user 0 com.amazon.alexa.modeswitch
-adb shell pm disable-user --user 0 com.amazon.alexa.youtube.app
-adb shell pm disable-user --user 0 com.amazon.alta.h2clientservice
-adb shell pm disable-user --user 0 com.amazon.android.marketplace
-adb shell pm disable-user --user 0 com.amazon.ava.shopping.android
-adb shell pm disable-user --user 0 com.amazon.client.metrics
-adb shell pm disable-user --user 0 com.amazon.client.metrics.api
-adb shell pm disable-user --user 0 com.amazon.cloud9
-adb shell pm disable-user --user 0 com.amazon.cloud9.contentservice
-adb shell pm disable-user --user 0 com.amazon.cloud9.kids
-adb shell pm disable-user --user 0 com.amazon.cloud9.systembrowserprovider
-adb shell pm disable-user --user 0 com.amazon.comms.knightcontacts
-adb shell pm disable-user --user 0 com.amazon.comms.knightmessaging
-adb shell pm disable-user --user 0 com.amazon.comms.multimodaltachyonarm
-adb shell pm disable-user --user 0 com.amazon.communication.discovery
-adb shell pm disable-user --user 0 com.amazon.csapp
-adb shell pm disable-user --user 0 com.amazon.dcp
-adb shell pm disable-user --user 0 com.amazon.dee.app
-adb shell pm disable-user --user 0 com.amazon.device.backup
-adb shell pm disable-user --user 0 com.amazon.device.backup.sdk.internal.library
-adb shell pm disable-user --user 0 com.amazon.device.crashmanager
-adb shell pm disable-user --user 0 com.amazon.device.logmanager
-adb shell pm disable-user --user 0 com.amazon.device.messaging
-adb shell pm disable-user --user 0 com.amazon.device.messaging.sdk.internal.library
-adb shell pm disable-user --user 0 com.amazon.device.messaging.sdk.library
-adb shell pm disable-user --user 0 com.amazon.device.metrics
-adb shell pm disable-user --user 0 com.amazon.device.sale.service
-adb shell pm disable-user --user 0 com.amazon.device.software.ota
-adb shell pm disable-user --user 0 com.amazon.device.software.ota.override
-adb shell pm disable-user --user 0 com.amazon.device.sync
-adb shell pm disable-user --user 0 com.amazon.device.sync.sdk.internal
-adb shell pm disable-user --user 0 com.amazon.displayclockface
-adb shell pm disable-user --user 0 com.amazon.dp.contacts
-adb shell pm disable-user --user 0 com.amazon.dp.fbcontacts
-adb shell pm disable-user --user 0 com.amazon.dp.logger
-adb shell pm disable-user --user 0 com.amazon.firelauncher
-adb shell pm disable-user --user 0 com.amazon.geo.client.maps
-adb shell pm disable-user --user 0 com.amazon.geo.mapsv2
-adb shell pm disable-user --user 0 com.amazon.geo.mapsv2.services
-adb shell pm disable-user --user 0 com.amazon.gloria.graphiq
-adb shell pm disable-user --user 0 com.amazon.gloria.smarthome
-adb shell pm disable-user --user 0 com.amazon.glorialist
-adb shell pm disable-user --user 0 com.amazon.h2settingsfortablet
-adb shell pm disable-user --user 0 com.amazon.kcp.tutorial
-adb shell pm disable-user --user 0 com.amazon.kindle
-adb shell pm disable-user --user 0 com.amazon.kindle.cms
-adb shell pm disable-user --user 0 com.amazon.kindle.kso
-adb shell pm disable-user --user 0 com.amazon.kindle.otter.oobe
-adb shell pm disable-user --user 0 com.amazon.kindle.otter.oobe.forced.ota
-adb shell pm disable-user --user 0 com.amazon.kindle.personal_video
-adb shell pm disable-user --user 0 com.amazon.kindle.rdmdeviceadmin
-adb shell pm disable-user --user 0 com.amazon.kindle.unifiedSearch
-adb shell pm disable-user --user 0 com.amazon.knight.blink
-adb shell pm disable-user --user 0 com.amazon.knight.calendar
-adb shell pm disable-user --user 0 com.amazon.knight.ecs
-adb shell pm disable-user --user 0 com.amazon.knight.hds
-adb shell pm disable-user --user 0 com.amazon.kor.demo
-adb shell pm disable-user --user 0 com.amazon.legalsettings
-adb shell pm disable-user --user 0 com.amazon.logan
-adb shell pm disable-user --user 0 com.amazon.mp3
-adb shell pm disable-user --user 0 com.amazon.mw
-adb shell pm disable-user --user 0 com.amazon.mw.sdk
-adb shell pm disable-user --user 0 com.amazon.ods.kindleconnect
-adb shell pm disable-user --user 0 com.amazon.paladin
-adb shell pm disable-user --user 0 com.amazon.parentalcontrols
-adb shell pm disable-user --user 0 com.amazon.photos
-adb shell pm disable-user --user 0 com.amazon.photos.importer
-adb shell pm disable-user --user 0 com.amazon.platform
-adb shell pm disable-user --user 0 com.amazon.platformsettings
-adb shell pm disable-user --user 0 com.amazon.pm
-adb shell pm disable-user --user 0 com.amazon.providers.contentsupport
-adb shell pm disable-user --user 0 com.amazon.recess
-adb shell pm disable-user --user 0 com.amazon.redstone
-adb shell pm disable-user --user 0 com.amazon.securitysyncclient
-adb shell pm disable-user --user 0 com.amazon.settings.systemupdates
-adb shell pm disable-user --user 0 com.amazon.socialplatform
-adb shell pm disable-user --user 0 com.amazon.speechui
-adb shell pm disable-user --user 0 com.amazon.sync.provider.ipc
-adb shell pm disable-user --user 0 com.amazon.sync.service
-adb shell pm disable-user --user 0 com.amazon.tablet.dock.settings
-adb shell pm disable-user --user 0 com.amazon.tablet.voicesettings
-adb shell pm disable-user --user 0 com.amazon.tabletsubscriptions
-adb shell pm disable-user --user 0 com.amazon.tahoe
-adb shell pm disable-user --user 0 com.amazon.tcomm
-adb shell pm disable-user --user 0 com.amazon.tcomm.client
-adb shell pm disable-user --user 0 com.amazon.unifiedshare.actionchooser
-adb shell pm disable-user --user 0 com.amazon.unifiedsharegoodreads
-adb shell pm disable-user --user 0 com.amazon.unifiedsharesinaweibo
-adb shell pm disable-user --user 0 com.amazon.unifiedsharetwitter
-adb shell pm disable-user --user 0 com.amazon.vans.alexatabletshopping.app
-adb shell pm disable-user --user 0 com.amazon.venezia
-adb shell pm disable-user --user 0 com.amazon.virtual.dash.knight.app
-adb shell pm disable-user --user 0 com.amazon.weather
-adb shell pm disable-user --user 0 com.amazon.webapp
-adb shell pm disable-user --user 0 com.amazon.whisperlink.activityview.android
-adb shell pm disable-user --user 0 com.amazon.whisperlink.core.android
-adb shell pm disable-user --user 0 com.amazon.whisperplay.contracts
-adb shell pm disable-user --user 0 com.amazon.windowshop
-adb shell pm disable-user --user 0 com.amazon.zico
-adb shell pm disable-user --user 0 com.amazon.zordon
-adb shell pm disable-user --user 0 com.android.calendar
-adb shell pm disable-user --user 0 com.android.contacts
-adb shell pm disable-user --user 0 com.android.deskclock
-adb shell pm disable-user --user 0 com.android.email
-adb shell pm disable-user --user 0 com.android.music
-adb shell pm disable-user --user 0 com.android.onetimeinitializer
-adb shell pm disable-user --user 0 com.android.protips
-adb shell pm disable-user --user 0 com.android.sharedstoragebackup
-adb shell pm disable-user --user 0 com.android.wallpapercropper
-adb shell pm disable-user --user 0 com.audible.application.kindle
-adb shell pm disable-user --user 0 com.goodreads.kindle
-adb shell pm disable-user --user 0 com.kingsoft.office.amz
-adb shell pm disable-user --user 0 jp.co.omronsoft.iwnnime.languagepack.zhcn_az
-adb shell pm disable-user --user 0 jp.co.omronsoft.iwnnime.mlaz
-adb shell pm disable-user --user 0 org.mopria.printplugin
-adb shell pm disable-user --user 0 com.washingtonpost.rainbow
-adb shell pm disable-user --user 0 com.amazon.iris
-adb shell pm disable-user --user 0 com.android.documentsui
+function usage() {
+    echo -e "USAGE: ${0} -l <PKG_LIST_FILE> -a <ACTION>" 1>&2
+    echo -e "\t -l Package List File - List of packages to take action on." 1>&2
+    echo -e "\t -a Action to take - disable, uninstall, or enable." 1>&2
+    exit 1
+}
+
+function check_adb() {
+    # check if adb is installed
+    if ! which adb > /dev/null; then
+        echo "ADB is not installed please install it and try running it again."
+    fi
+}
+
+function enable_package() {
+    echo "[ENABLING] ${1}..."
+    adb shell <<< "pm enable --user 0 ${1}"
+}
+
+function disable_package() {
+    echo "[DISABLING] ${1}..."
+    adb shell <<< "pm disable-user --user 0 ${1}"
+}
+
+function uninstall_package() {
+    echo "[UNINSTALLING] ${1}..."
+    adb shell <<< "pm uninstall -k --user 0 ${1}"
+}
+
+while getopts ":l:a:" o; do
+    case "${o}" in
+        l)
+            PACKAGE_LIST_FILE=${OPTARG}
+            ;;
+        a)
+            ACTION=${OPTARG}
+            ;;
+        *)
+            usage
+            ;;
+    esac
+done
+
+if [ -z "${PACKAGE_LIST_FILE}" ] || [ -z "${ACTION}" ]; then
+    echo "ERROR: missing one or more required arguments!"
+    usage
+fi
+
+check_adb
+
+cat $PACKAGE_LIST_FILE | while read -r pkg; do
+    if [ -n "$pkg" ]; then
+        eval "${ACTION}_package ${pkg}"
+    fi
+done

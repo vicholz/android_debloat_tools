@@ -1,0 +1,56 @@
+com.android.phone # Samsung Phone
+com.android.server.telecom # Samsung Phone
+com.dsi.ant.plugins.antplus # Samsung ANT+ Plugin Service
+com.dsi.ant.sample.acquirechannels # Samsung ANT+ DUT
+com.dsi.ant.server # Samsung ANT+ HAL Service
+com.dsi.ant.service.socket # Samsung ANT Radio service
+com.microsoft.skydrive # OneDrive
+com.samsung.android.allshare.service.fileshare # Samsung Nearby Sharing
+com.samsung.android.allshare.service.mediashare # Samsung Nearby Service
+com.samsung.android.app.clipboardedge # Samsung Clipboard edge
+com.samsung.android.app.cocktailbarservice # Samsung Edge panels
+com.samsung.android.app.contacts # Samsung Contacts
+com.samsung.android.app.dofviewer # Samsung Portrait
+com.samsung.android.app.reminder # Samsung Reminder
+com.samsung.android.app.settings.bixby # Samsung Bixby Settings
+com.samsung.android.app.sharelive # Samsung Quick Share
+com.samsung.android.app.simplesharing # Samsung Link Sharing
+com.samsung.android.app.spage # Samsung Free
+com.samsung.android.app.taskedge # Samsung Tasks
+com.samsung.android.app.telephonyui # Samsung Call settings
+com.samsung.android.aware.service # Samsung Quick Share Service
+com.samsung.android.bixby.agent # Samsung Bixby Voice
+com.samsung.android.bixby.agent.dummy # Samsung Bixby Voice Stub
+com.samsung.android.bixby.service # Samsung Bixby dictation
+com.samsung.android.bixby.wakeup # Samsung Bixby Voice Wake-Up
+com.samsung.android.bixbyvision.framework # Samsung Bixby Vision
+com.samsung.android.calendar # Samsung Calendar
+com.samsung.android.callbgprovider # Samsung CallBGProvider
+com.samsung.android.dialer # Samsung Dialer
+com.samsung.android.easysetup # Samsung Nearby Device Scanning
+com.samsung.android.fmm # Samsung Find My Mobile
+com.samsung.android.game.gamehome # Samsung Game Launcher
+com.samsung.android.game.gametools # Samsung Game Booster
+com.samsung.android.game.gos # Samsung Game Optimizing Service
+com.samsung.android.homemode # Samsung Daily Board
+com.samsung.android.honeyboard # Samsung Keyboard
+com.samsung.android.icecone # Samsung Keyboard Content Center
+com.samsung.android.incallui # Samsung Call
+com.samsung.android.kidsinstaller # Samsung Kids Installer
+com.samsung.android.lool # Samsung Device case
+com.samsung.android.mapsagent # Samsung Application recommendations
+com.samsung.android.mdecservice # SamsungCall & text on other devices
+com.samsung.android.mdx.quickboard # Samsung Media and devices
+com.samsung.android.messaging # Samsung Messages
+com.samsung.android.mobileservice # Samsung Group Sharing
+com.samsung.android.net.wifi.wifiguider # Samsung Wifi Tips
+com.samsung.android.service.peoplestripe # Samsung People
+com.samsung.android.smartcallprovider # Samsung Smart Call Provider
+com.samsung.clipboardsaveservice # ClipboardSaveServices
+com.sec.android.app.launcher # Samsung One UI Home Screen/Launcher
+com.sec.android.app.myfiles # Samsung My Files
+com.sec.android.app.quicktool # Samsung Tools
+com.sec.android.app.samsungapps # Samsung Galaxy Store
+com.sec.android.emergencylauncher # Samsung Emergency Launcher
+com.sec.android.widgetapp.samsungapps # Galaxy Essentials Widget
+com.sec.phone # Samsung Phone

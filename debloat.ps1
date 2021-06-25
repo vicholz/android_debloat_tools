@@ -2,10 +2,12 @@
 param (
     [string]$l = $null,
     [string]$a = $null
- )
+)
+
+$basename = $MyInvocation.MyCommand.Name
 
 function usage {
-    Write-Output "USAGE: ${$MyInvocation.MyCommand.Name} -l <PKG_LIST_FILE> -a <ACTION>"
+    Write-Output "USAGE: $basename -l <PKG_LIST_FILE> -a <ACTION>"
     Write-Output "  -l Package List File - List of packages to take action on."
     Write-Output "  -a Action to take - disable, uninstall, or enable."
     exit 1

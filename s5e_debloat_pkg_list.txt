@@ -47,7 +47,7 @@ com.samsung.android.net.wifi.wifiguider # Samsung Wifi Tips
 com.samsung.android.service.peoplestripe # Samsung People
 com.samsung.android.smartcallprovider # Samsung Smart Call Provider
 com.samsung.clipboardsaveservice # ClipboardSaveServices
-com.sec.android.app.launcher # Samsung One UI Home Screen/Launcher
+#com.sec.android.app.launcher # Samsung One UI Home Screen/Launcher - Disables home gesture
 com.sec.android.app.myfiles # Samsung My Files
 com.sec.android.app.quicktool # Samsung Tools
 com.sec.android.app.samsungapps # Samsung Galaxy Store

@@ -17,7 +17,7 @@ com.samsung.android.app.contacts # Samsung contacts
 com.samsung.android.livestickers # Deco pic
 com.samsung.android.homemode # Daily board
 com.samsung.android.app.cocktailbarservice # Edge panels
-com.samsung.android.app.samsungapps # Galaxy store
+com.sec.android.app.samsungapps # Galaxy store
 com.samsung.android.game.gametools # Game booster
 com.samsung.android.game.gamehone # Game launcher
 com.samsung.android.game.gos # Game optimizing service

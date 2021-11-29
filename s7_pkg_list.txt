@@ -1,0 +1,50 @@
+com.microsoft.skydrive # Microsoft One Drive
+com.osp.app.signin # Samsung account
+com.sec.android.app.quicktool # Edge tools
+com.samsung.android.calendar # Samsung Calendar
+com.sec.android.app.popupcalculator # Samsung Calculator
+com.samsung.android.arzone # AR Zone
+com.samsung.android.ardrawing # AR Drawing
+com.samsung.android.com.samsung.android.mapsagent # Application recommendation
+com.samsung.android.routines # Bixby routines
+com.samsung.android.visionintelligence # Bixby vision
+com.samsung.android.bixby.agent # Bixby voice
+com.samsung.android.bixby.agent.dummy # Bixby voice stub
+com.samsung.android.bixby.service # Bixby dictation
+com.samsung.android.bixbyvision.framework # Bixby vision framework
+com.samsung.android.clipboardedge # Clipboard edge
+com.samsung.android.app.contacts # Samsung contacts
+com.samsung.android.livestickers # Deco pic
+com.samsung.android.homemode # Daily board
+com.samsung.android.app.cocktailbarservice # Edge panels
+com.samsung.android.app.samsungapps # Galaxy store
+com.samsung.android.game.gametools # Game booster
+com.samsung.android.game.gamehone # Game launcher
+com.samsung.android.game.gos # Game optimizing service
+com.samsung.android.service.livedrawing # Live messages
+com.samsung.android.messaging # Samsung messages
+com.samsung.android.allshare.service.mediashare # Nearby service
+com.samsung.android.easysetup # Nearby device scanning
+com.samsung.android.privateshare # Samsung private share
+com.samsung.android.aware.service # Quick share
+com.samsung.android.app.sharelive # Quick share
+com.samsung.android.scloud # Samsung cloud
+com.samsung.android.scs # Samsung core services 
+com.samsung.android.app.spage # Samsung free
+com.samsung.android.app.notes # Samsung notes
+com.samsung.android.app.notes.addons # Samsung notes add-ons
+com.samsung.android.visualars # Smart touch call
+com.samsung.android.stickercenter # Sticker center
+com.samsung.android.app.taskedge # Tasks
+com.samsung.android.app.tips # Tips
+com.samsung.android.bixby.wakeup # Bixby voice wake up
+com.samsung.android.app.watchmanagerstub # Wearable manager installer
+com.samsung.android.net.wifi.wifiguider # Wifi Tips
+# Phone
+com.samsung.android.incallui
+com.samsung.android.mdecservice
+com.samsung.android.app.telephonyui
+com.samsung.android.callbgprovider
+com.android.server.telecom
+com.samsung.android.dialer
+com.android.phone
